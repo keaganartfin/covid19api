@@ -1,7 +1,7 @@
 'use strict'
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 var gutil = require('gulp-util');
 var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
